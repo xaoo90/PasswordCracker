@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="ff3cbbfc-632b-48b1-b2ae-be63ff167349" name="diagramPrzypadkowUzycia" linkedPackageId="fe20772f-1c3f-4c2a-8660-72eb643f607e" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="08b5a216-8b8f-4745-ab9d-d90e5800b405">
+      <profileInstance Id="d4abf926-8c29-4106-9f52-c73ec820304d" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="96db4ca2-a87e-49e6-986d-a46080ad2c8d">
+      <profileInstance Id="3ed550bc-0d62-4493-b1df-97408b795201" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="54d63ae2-5515-422d-9b31-dac2ad7b5717" name="Użytkownik" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="22253247-7356-4e71-a9be-66cfe2adb519" />
+        <targetEnds>
+          <association Id="140fccf0-c68e-4ee0-a10f-3ce9205b5331" isDerived="false" sourceEndRoleName="Użytkownik" targetEndRoleName="Przeliczenie hasła na kombinacje na podstawie wybranych znaków" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="57395199-d06a-4494-91f2-475fa1f67bf0" LastKnownName="Przeliczenie hasła na kombinacje na podstawie wybranych znaków" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9d2dc537-305b-4b27-857e-c9cf89f07924" name="Użytkownik" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e80125d8-15a1-4c68-a41a-72061ded5c35" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c5a00b61-148a-4454-8ce8-1bb088a572bf" name="Przeliczenie hasła na kombinacje na podstawie wybranych znaków" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f1536bbd-1613-4bed-9bad-5ba46abdda1f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4efa3baf-bb10-4ed1-9e22-208a5edc16da" />
+          </association>
+          <association Id="07404a8b-cc1b-4cd4-882a-a44a088d6150" isDerived="false" sourceEndRoleName="Użytkownik" targetEndRoleName="Przeliczenie kombinacji na hasło na podstawie wybranych znaków" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="e85b515b-6c42-4d32-ae54-aafd4a84df63" LastKnownName="Przeliczenie kombinacji na hasło na podstawie wybranych znaków" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="68e9b04d-958a-4eb6-a031-76550897dbc1" name="Użytkownik" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9b71444d-ddc2-4910-ac49-d3b44a3c88f8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="df8387a3-9fde-4fec-9cfc-88d8313aadf3" name="Przeliczenie kombinacji na hasło na podstawie wybranych znaków" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7dc05e05-e387-4de8-af21-38fda0e2d536" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ddb0e864-e16e-4198-a78c-00b5fb10856a" />
+          </association>
+          <association Id="5dd01d41-417b-4062-8656-0e6d595caa6c" isDerived="false" sourceEndRoleName="Użytkownik" targetEndRoleName="Wybór znaków&#xD;&#xA;do łamania hasła" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="67efd07e-1c3c-4f71-aed9-91252d54fd4b" LastKnownName="Wybór znaków&#xD;&#xA;do łamania hasła" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7e4f5c26-44b2-4762-8fec-adb6fb0f6ace" name="Użytkownik" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="85a7741c-483b-4519-8cba-a1922f19d184" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="72132713-1f21-4846-87fa-fae010e3606e" name="Wybór znaków&#xD;&#xA;do łamania hasła" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8428d453-b354-4ee0-a141-3d96fc36ab69" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d99ca38c-c1f0-4426-96e2-d664a586c93b" />
+          </association>
+          <association Id="5a96ebd9-7f61-44b8-bc14-157734a37e38" isDerived="false" sourceEndRoleName="Użytkownik" targetEndRoleName="połączenie&#xD;&#xA;z  hostem" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="8b25b852-b274-4e16-8fc7-d668a782b008" LastKnownName="połączenie&#xD;&#xA;z  hostem" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a8186724-2260-41f4-aefa-2474e84f13da" name="Użytkownik" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6dec8618-cfd7-4235-b07b-e1f71efc38f3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a41c8037-059e-432d-909f-800a7fd9a3ee" name="połączenie&#xD;&#xA;z  hostem" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5f311e5b-b310-44df-a9e7-db1bd7683bfe" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6c5c23df-60cb-4ccd-8471-ec2dd8ab4616" />
+          </association>
+          <association Id="726cada5-e6b4-4e8a-a133-cea170905a36" isDerived="false" sourceEndRoleName="Użytkownik" targetEndRoleName="Rozpoczęcie hamania hasła" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="086e8460-a51f-4124-9f71-f9e2b89c5ec2" LastKnownName="Rozpoczęcie hamania hasła" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="085af7e4-94a6-425c-b512-f4fbb6a8893b" name="Użytkownik" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9e610eb1-bbfa-441b-a381-5934f2ab4212" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b8cec4e5-7619-4cf1-8ff4-1231eed078d4" name="Rozpoczęcie hamania hasła" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f9a65cd8-cd7d-46dc-8f75-ca2a2fe7b425" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8607a66c-6488-4a8f-96aa-633d7e18172c" />
+          </association>
+          <association Id="f52c9bf4-c638-44d0-be2e-93b60f416cad" isDerived="false" sourceEndRoleName="Użytkownik" targetEndRoleName="Zatrzymanie hamania hasła" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ef7e1505-6812-4080-b946-9870a26e99cd" LastKnownName="Zatrzymanie hamania hasła" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2086c325-bd5d-42b2-b026-9bcf7dd2bdd4" name="Użytkownik" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a1937417-22cf-473c-87d9-294157519fa9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="858e2075-1cb0-499c-94bf-1fccf5abdc5b" name="Zatrzymanie hamania hasła" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="bc9d9ed2-46b9-4d21-9f23-928dcee68ce6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e4acf96c-3cff-49df-b667-6a807ef71cb1" />
+          </association>
+          <association Id="4c6aaa1b-0b0d-425b-9c25-0c31f7147f5c" isDerived="false" sourceEndRoleName="Użytkownik" targetEndRoleName="Wybór metody łamania hasła" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="678333cf-e234-4259-95a5-c8d52b5f67df" LastKnownName="Wybór metody łamania hasła" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3f53dcd2-1ac3-4448-9bd1-6585a47ac666" name="Użytkownik" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="54b201a3-da3a-4d45-8822-1464e9e16be2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b3e28d80-bc60-4285-9af7-22bd92aac56b" name="Wybór metody łamania hasła" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="137d8fb8-5354-40eb-8edf-5c0d31a9d0ab" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="101b5f47-1004-4d1b-8d74-bfe25ef09753" />
+          </association>
+          <association Id="1c65cbb1-0ae6-41ec-a8c3-0eb9b29e8717" isDerived="false" sourceEndRoleName="Użytkownik" targetEndRoleName="Okreslenie wielkości paczki" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f6efe481-5fd5-4946-8b9c-41a9dccad4af" LastKnownName="Okreslenie wielkości paczki" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d9c504a2-70df-4323-b274-245e314ac677" name="Użytkownik" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ade36897-a28c-4bbc-8564-1bef3e645e5c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="772532c9-99f7-4b40-90aa-dba513a024ac" name="Okreslenie wielkości paczki" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="019a957c-3ef6-4e32-9691-fd37f1db56b4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d4296684-06a0-428c-ac9d-ad2f88ffb49a" />
+          </association>
+          <association Id="e9fa8ddb-102b-47c7-89d0-2439bcc1ba1c" isDerived="false" sourceEndRoleName="Użytkownik" targetEndRoleName="Okreslenie indeksu początkowego" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b897128f-579c-4800-82d8-1fc144ccddd5" LastKnownName="Okreslenie indeksu początkowego" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7de659b4-3028-4171-8af6-d0636409c56f" name="Użytkownik" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="337b2693-e94b-40ca-a876-a4ba55570291" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e55b248a-107d-4af1-a27a-60b9c628324c" name="Okreslenie indeksu początkowego" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="21254709-c1cc-4c86-8c41-f778649a5e1d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5f767e16-9de3-46d8-b454-f8b9a5cc6e1c" />
+          </association>
+          <association Id="be79af13-35ae-443b-b883-736b1c0b73fb" isDerived="false" sourceEndRoleName="Użytkownik" targetEndRoleName="Wczytanie HASHy&#xD;&#xA;z pliku TXT" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="78216a7f-2b8b-440c-b627-3755b33c602e" LastKnownName="Wczytanie HASHy&#xD;&#xA;z pliku TXT" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="556182e2-749f-4cd4-bfd9-c9f2b2ee21ba" name="Użytkownik" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b6d398b3-53b5-4fe8-b7b7-13e52bf82328" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="492e13d7-fc94-417f-9286-01d2e9ce50da" name="Wczytanie HASHy&#xD;&#xA;z pliku TXT" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3a31064b-c599-47b0-b5a4-0c782600f156" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="04da51ca-e893-4d3d-9b5e-26489307a62f" />
+          </association>
+          <association Id="a22aa645-03f6-49cd-88e6-5f9a493d733c" isDerived="false" sourceEndRoleName="Użytkownik" targetEndRoleName="Wybór słownika z pliku" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1a5c1075-7069-46ed-99e5-7b31981f6e67" LastKnownName="Wybór słownika z pliku" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cb9562bc-010e-4f52-bebd-a67fc1154ba6" name="Użytkownik" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="41b2048c-126f-4301-ad28-2b707e413678" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="891b2d4d-39df-40e9-8f06-f4aa72325887" name="Wybór słownika z pliku" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="49a8a367-b962-477a-8118-9d6c542e3e30" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c19244ac-1196-4dc6-bd60-d4302c6fe884" />
+          </association>
+          <association Id="8ba776f9-09aa-49ec-b800-e790ff37f52d" isDerived="false" sourceEndRoleName="Użytkownik" targetEndRoleName="Zapis odpowiedzi&#xD;&#xA;do pliku TXT" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="03f5831b-74b2-444d-b0a3-f000cf216605" LastKnownName="Zapis odpowiedzi&#xD;&#xA;do pliku TXT" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6d74682c-faab-4ce5-8da2-e930e24f551d" name="Użytkownik" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8dada6a1-ba30-43cc-97c7-c4e4a521be3f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5e2ae489-2cab-4538-8361-4dfcfb956bca" name="Zapis odpowiedzi&#xD;&#xA;do pliku TXT" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="762ea382-fb71-467b-ba65-bd99ec27ea17" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3ad1b06f-5128-4c81-8dc0-4569e428777a" />
+          </association>
+          <association Id="2e2189a5-7909-4acd-87da-8b8ec8a33827" isDerived="false" sourceEndRoleName="Użytkownik" targetEndRoleName="Umieszczenie HASHa na liste po przeliczeniu" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3d21cc8e-21f4-471e-88da-7b6909cdf564" LastKnownName="Umieszczenie HASHa na liste po przeliczeniu" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="aab4ce32-258e-4560-b66d-34358ae06501" name="Użytkownik" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="cf909cc0-21ab-4b75-ad97-fd2ddba3eda0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="370dfc20-4d57-4b86-a1d4-f1f9081463bb" name="Umieszczenie HASHa na liste po przeliczeniu" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c080a7f6-8a1c-4a18-8ff3-517ee30d06f5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="692eda73-2f68-4c47-91af-79bad71049fc" />
+          </association>
+          <association Id="ea202336-b13b-48bd-8a11-2f295e25433a" isDerived="false" sourceEndRoleName="Użytkownik" targetEndRoleName="Czyszczenie listy odpowiedzi" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="773b112e-b0b0-4865-9e66-ca973b3c5379" LastKnownName="Czyszczenie listy odpowiedzi" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8df7e17b-978b-450b-8508-fc7cb444c345" name="Użytkownik" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="940e7c72-5e8c-4eb5-ba0a-fd45612a6511" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="87f3e667-d483-4912-a8ea-8f9ee1198faa" name="Czyszczenie listy odpowiedzi" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="31643037-a3c4-4374-a81b-40c25e9b646f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f79ddbfb-280d-4c73-b67b-5fd5e681044d" />
+          </association>
+          <association Id="4b0257d0-75d5-4e29-9d45-65856c9b9458" isDerived="false" sourceEndRoleName="Użytkownik" targetEndRoleName="Przeliczenie hasła&#xD;&#xA;na HASH MD5" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ea47c98c-e12c-43f5-a178-b2a9e170cf62" LastKnownName="Przeliczenie hasła&#xD;&#xA;na HASH MD5" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="20b4f838-0914-43f7-9356-e25bdfa6537c" name="Użytkownik" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3d338804-e686-4e92-84e4-f301e666e45d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="28a6be29-4ce1-4f6d-8b2e-6ad6220049c8" name="Przeliczenie hasła&#xD;&#xA;na HASH MD5" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ba62a258-caa9-478e-ad8b-dda7032feb7c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9ac36295-06e9-4d90-b91b-a62715334ecf" />
+          </association>
+          <association Id="c84de2bf-deba-402f-9193-cf8db29ceb42" isDerived="false" sourceEndRoleName="Użytkownik" targetEndRoleName="Usunięcie wybranego HASHa z listy" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="7e7b95e8-7a8e-4a46-bcb8-67f29d06910b" LastKnownName="Usunięcie wybranego HASHa z listy" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4f97973d-aeee-4333-9fd9-2334c0a3087e" name="Użytkownik" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c549f7ca-e42c-4897-9fb4-d61b977ee6cb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1bbcccdb-effe-4758-9e35-0ec581c27a28" name="Usunięcie wybranego HASHa z listy" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c9ae7094-f36d-4db7-b84f-8c228ddb6710" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="468903f7-278a-47ef-9d83-1a32cef6b90d" />
+          </association>
+          <association Id="bfaa4249-fa60-407f-a302-27b769b8a627" isDerived="false" sourceEndRoleName="Użytkownik" targetEndRoleName="Czyszczenie listy HASHy" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="10bc5082-052d-46f3-ab66-586b913ab143" LastKnownName="Czyszczenie listy HASHy" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8ab41df1-5e28-4868-83b0-bef7677e5cfd" name="Użytkownik" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="90c9d3f4-4fdd-4a13-a4b0-2d0ce2471ac4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="eef6b4ce-d853-446f-a107-096080ba2ca0" name="Czyszczenie listy HASHy" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1b1e1dd8-055b-4194-8a02-0ad5793cd0bf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e374feac-ddc6-4439-bff7-ae38e96cbc09" />
+          </association>
+          <association Id="c684d700-c07e-46b0-873a-6c863361d92d" isDerived="false" sourceEndRoleName="Użytkownik" targetEndRoleName="Wybór metod modyfikujących" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="6a30f43b-4562-46d1-8cf8-0af64ec6f3e2" LastKnownName="Wybór metod modyfikujących" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="08c11ded-8f72-4a34-9c15-71e339bef495" name="Użytkownik" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="02d9ee72-7236-4218-bf3e-e5ca2c16096d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c4965970-7082-4f72-bf17-3e28cf65d34c" name="Wybór metod modyfikujących" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ea9f7609-9887-4257-9e7b-9eafb2059c9a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ebd8376d-b457-4ceb-b4b5-069f923aa945" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="7453a01d-42c1-47ab-bc44-0db3f7605d76" name="BruteForce" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b85a1092-684e-40d3-8336-21abc3166148" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="67efd07e-1c3c-4f71-aed9-91252d54fd4b" name="Wybór znaków&#xD;&#xA;do łamania hasła" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ab51b0ac-65b9-4788-bbe7-c6de1aaf81da" />
+        <subjects>
+          <subsystemMoniker Id="7453a01d-42c1-47ab-bc44-0db3f7605d76" LastKnownName="BruteForce" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="57395199-d06a-4494-91f2-475fa1f67bf0" name="Przeliczenie hasła na kombinacje na podstawie wybranych znaków" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="75ae15fe-715b-493e-85a4-01b639832a09" />
+        <subjects>
+          <subsystemMoniker Id="7453a01d-42c1-47ab-bc44-0db3f7605d76" LastKnownName="BruteForce" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="e85b515b-6c42-4d32-ae54-aafd4a84df63" name="Przeliczenie kombinacji na hasło na podstawie wybranych znaków" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0a811b95-0d11-4a82-9f91-4b3066a31ea1" />
+        <subjects>
+          <subsystemMoniker Id="7453a01d-42c1-47ab-bc44-0db3f7605d76" LastKnownName="BruteForce" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="f98b11ba-12a5-4bc8-bc2f-fad238ce2bb6" name="Słownik" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="597275e2-b068-47ac-85a6-3031ebfd02e3" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="1a5c1075-7069-46ed-99e5-7b31981f6e67" name="Wybór słownika z pliku" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d47513dc-9c5c-4587-8a78-68a1fc20ed06" />
+        <subjects>
+          <subsystemMoniker Id="f98b11ba-12a5-4bc8-bc2f-fad238ce2bb6" LastKnownName="Słownik" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="6a30f43b-4562-46d1-8cf8-0af64ec6f3e2" name="Wybór metod modyfikujących" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1914bd50-caed-4bab-8b84-c681f3619012" />
+        <subjects>
+          <subsystemMoniker Id="f98b11ba-12a5-4bc8-bc2f-fad238ce2bb6" LastKnownName="Słownik" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <useCase Id="8b25b852-b274-4e16-8fc7-d668a782b008" name="połączenie&#xD;&#xA;z  hostem" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="96429e0d-aaf2-44c7-8a8f-43f9aa30d509" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="086e8460-a51f-4124-9f71-f9e2b89c5ec2" name="Rozpoczęcie hamania hasła" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="405683bd-28b7-4a69-86eb-257c32f7c531" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="ef7e1505-6812-4080-b946-9870a26e99cd" name="Zatrzymanie hamania hasła" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="724a8fb5-0b39-4e2d-8dfc-fb877a7656e1" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="678333cf-e234-4259-95a5-c8d52b5f67df" name="Wybór metody łamania hasła" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5d46760b-dfd3-4986-84c1-2dc15668debc" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="f6efe481-5fd5-4946-8b9c-41a9dccad4af" name="Okreslenie wielkości paczki" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="abf51743-6895-4a40-a5be-726e0107915f" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b897128f-579c-4800-82d8-1fc144ccddd5" name="Okreslenie indeksu początkowego" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="07c1c194-81fb-4031-bac3-84f56fd9a494" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="78216a7f-2b8b-440c-b627-3755b33c602e" name="Wczytanie HASHy&#xD;&#xA;z pliku TXT" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ca43725a-ae84-481c-bc14-9173d98c6d83" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="10bc5082-052d-46f3-ab66-586b913ab143" name="Czyszczenie listy HASHy" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="43b56bf5-ac41-402a-aa8f-ef8aa55b100c" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="7e7b95e8-7a8e-4a46-bcb8-67f29d06910b" name="Usunięcie wybranego HASHa z listy" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d9d797d1-bbe6-4ba9-acc7-a53c4d5e711a" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="ea47c98c-e12c-43f5-a178-b2a9e170cf62" name="Przeliczenie hasła&#xD;&#xA;na HASH MD5" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="92d2f4c1-64bf-4822-b80c-7f9303050714" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3d21cc8e-21f4-471e-88da-7b6909cdf564" name="Umieszczenie HASHa na liste po przeliczeniu" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a31e2d85-59d0-47ba-a735-b83e57688c58" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="773b112e-b0b0-4865-9e66-ca973b3c5379" name="Czyszczenie listy odpowiedzi" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="62f39502-e1f8-41ec-bf63-e19946da1210" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="03f5831b-74b2-444d-b0a3-f000cf216605" name="Zapis odpowiedzi&#xD;&#xA;do pliku TXT" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="78453d5c-8caf-4434-bc06-af2781d7fa4c" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="fe20772f-1c3f-4c2a-8660-72eb643f607e" name="UML">
+    <elementDefinition Id="fce48008-7a98-47e6-bbb2-e55fc411388a" />
+  </package>
+</useCaseModelRoot>

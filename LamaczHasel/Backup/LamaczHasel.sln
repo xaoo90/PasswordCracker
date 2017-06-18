@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{48F28E1D-E1EF-4D5D-89B7-4A458606D398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LamaczHaselGUI", "LamaczHaselGUI\LamaczHaselGUI.csproj", "{9F0F607A-8A24-4699-A171-B9189B2A24F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LamaczHaselHost", "LamaczHaselHost\LamaczHaselHost.csproj", "{66D27863-54E7-46E3-9E8A-12A4CB591C33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LamaczHaselClient", "LamaczHaselClient\LamaczHaselClient.csproj", "{105C8840-07C7-4C97-ADCA-D6506F29B3C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LHWcfServiceLibrary", "LHWcfServiceLibrary\LHWcfServiceLibrary.csproj", "{15B3E0D2-6217-493A-A690-158C497F5318}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "UML", "UML\UML.modelproj", "{DA12E5BE-79E3-4502-BAAC-13BF28B21B00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48F28E1D-E1EF-4D5D-89B7-4A458606D398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48F28E1D-E1EF-4D5D-89B7-4A458606D398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48F28E1D-E1EF-4D5D-89B7-4A458606D398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48F28E1D-E1EF-4D5D-89B7-4A458606D398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F0F607A-8A24-4699-A171-B9189B2A24F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F0F607A-8A24-4699-A171-B9189B2A24F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F0F607A-8A24-4699-A171-B9189B2A24F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F0F607A-8A24-4699-A171-B9189B2A24F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66D27863-54E7-46E3-9E8A-12A4CB591C33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D27863-54E7-46E3-9E8A-12A4CB591C33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D27863-54E7-46E3-9E8A-12A4CB591C33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D27863-54E7-46E3-9E8A-12A4CB591C33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{105C8840-07C7-4C97-ADCA-D6506F29B3C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{105C8840-07C7-4C97-ADCA-D6506F29B3C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{105C8840-07C7-4C97-ADCA-D6506F29B3C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{105C8840-07C7-4C97-ADCA-D6506F29B3C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA12E5BE-79E3-4502-BAAC-13BF28B21B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA12E5BE-79E3-4502-BAAC-13BF28B21B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA12E5BE-79E3-4502-BAAC-13BF28B21B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA12E5BE-79E3-4502-BAAC-13BF28B21B00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

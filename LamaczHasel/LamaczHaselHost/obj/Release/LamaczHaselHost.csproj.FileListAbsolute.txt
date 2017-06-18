@@ -1,0 +1,11 @@
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\LamaczHaselHost\bin\Release\LamaczHaselHost.exe.config
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\LamaczHaselHost\bin\Release\LamaczHaselHost.exe
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\LamaczHaselHost\bin\Release\LamaczHaselHost.pdb
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\LamaczHaselHost\bin\Release\LHWcfServiceLibrary.dll
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\LamaczHaselHost\bin\Release\Shared.dll
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\LamaczHaselHost\bin\Release\LHWcfServiceLibrary.pdb
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\LamaczHaselHost\bin\Release\LHWcfServiceLibrary.dll.config
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\LamaczHaselHost\bin\Release\Shared.pdb
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\LamaczHaselHost\obj\Release\LamaczHaselHost.csprojResolveAssemblyReference.cache
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\LamaczHaselHost\obj\Release\LamaczHaselHost.exe
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\LamaczHaselHost\obj\Release\LamaczHaselHost.pdb

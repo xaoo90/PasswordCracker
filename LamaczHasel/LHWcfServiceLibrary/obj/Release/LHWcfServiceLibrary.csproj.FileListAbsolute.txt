@@ -1,0 +1,8 @@
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\LHWcfServiceLibrary\bin\Release\LHWcfServiceLibrary.dll.config
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\LHWcfServiceLibrary\bin\Release\LHWcfServiceLibrary.dll
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\LHWcfServiceLibrary\bin\Release\LHWcfServiceLibrary.pdb
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\LHWcfServiceLibrary\bin\Release\Shared.dll
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\LHWcfServiceLibrary\bin\Release\Shared.pdb
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\LHWcfServiceLibrary\obj\Release\LHWcfServiceLibrary.csprojResolveAssemblyReference.cache
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\LHWcfServiceLibrary\obj\Release\LHWcfServiceLibrary.dll
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\LHWcfServiceLibrary\obj\Release\LHWcfServiceLibrary.pdb

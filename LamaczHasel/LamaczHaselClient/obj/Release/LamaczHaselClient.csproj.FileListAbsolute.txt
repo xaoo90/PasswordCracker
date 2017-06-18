@@ -1,0 +1,8 @@
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\LamaczHaselClient\bin\Release\LamaczHaselClient.exe.config
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\LamaczHaselClient\bin\Release\LamaczHaselClient.exe
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\LamaczHaselClient\bin\Release\LamaczHaselClient.pdb
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\LamaczHaselClient\bin\Release\Shared.dll
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\LamaczHaselClient\bin\Release\Shared.pdb
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\LamaczHaselClient\obj\Release\LamaczHaselClient.csprojResolveAssemblyReference.cache
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\LamaczHaselClient\obj\Release\LamaczHaselClient.exe
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\LamaczHaselClient\obj\Release\LamaczHaselClient.pdb

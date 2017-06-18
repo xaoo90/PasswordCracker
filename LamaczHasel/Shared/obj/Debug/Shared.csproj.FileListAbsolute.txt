@@ -1,0 +1,15 @@
+D:\LamaczHasel\LamaczHasel240516_1825\LamaczHasel\Shared\bin\Debug\Shared.dll
+D:\LamaczHasel\LamaczHasel240516_1825\LamaczHasel\Shared\bin\Debug\Shared.pdb
+D:\LamaczHasel\LamaczHasel240516_1825\LamaczHasel\Shared\obj\Debug\Shared.dll
+D:\LamaczHasel\LamaczHasel240516_1825\LamaczHasel\Shared\obj\Debug\Shared.pdb
+D:\LamaczHasel\LamaczHasel240516_1825\LamaczHasel\Shared\obj\Debug\Shared.csprojResolveAssemblyReference.cache
+D:\LamaczHasel\050616_1415\LamaczHasel\Shared\bin\Debug\Shared.dll
+D:\LamaczHasel\050616_1415\LamaczHasel\Shared\bin\Debug\Shared.pdb
+D:\LamaczHasel\050616_1415\LamaczHasel\Shared\obj\Debug\Shared.dll
+D:\LamaczHasel\050616_1415\LamaczHasel\Shared\obj\Debug\Shared.pdb
+D:\LamaczHasel\050616_1415\LamaczHasel\Shared\obj\Debug\Shared.csprojResolveAssemblyReference.cache
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\Shared\bin\Debug\Shared.dll
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\Shared\bin\Debug\Shared.pdb
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\Shared\obj\Debug\Shared.csprojResolveAssemblyReference.cache
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\Shared\obj\Debug\Shared.dll
+E:\Studia\MaterialyStudia\MGR\PSR - PaduchBedlaLukawski\LamaczHasel\1ID21B_PSR_Proj_LamaczHasel\LamaczHasel\Shared\obj\Debug\Shared.pdb

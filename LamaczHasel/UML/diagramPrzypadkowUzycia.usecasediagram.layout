@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 12.25, 8.5" name="diagramPrzypadkowUzycia">
+  <useCaseModelRootMoniker Id="ff3cbbfc-632b-48b1-b2ae-be63ff167349" />
+  <nestedChildShapes>
+    <actorShape Id="6ea451bf-37c7-49cf-833e-4d2635b185dc" absoluteBounds="6.75, 3.75, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="54d63ae2-5515-422d-9b31-dac2ad7b5717" LastKnownName="Użytkownik" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseShape Id="dc772206-d2f4-4290-9db5-b8e39a72438f" absoluteBounds="8, 0.75, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="8b25b852-b274-4e16-8fc7-d668a782b008" LastKnownName="połączenie&#xD;&#xA;z  hostem" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(7.125 : 3.75); (8.37873218748183 : 1.24253562503633)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="5a96ebd9-7f61-44b8-bc14-157734a37e38" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="6ea451bf-37c7-49cf-833e-4d2635b185dc" />
+        <useCaseShapeMoniker Id="dc772206-d2f4-4290-9db5-b8e39a72438f" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="1b35654c-944e-472f-866d-ceaebaf57c71" absoluteBounds="6.125, 0.75, 1.375, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="086e8460-a51f-4124-9f71-f9e2b89c5ec2" LastKnownName="Rozpoczęcie hamania hasła" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(6.984375 : 3.75); (6.82812096618039 : 1.24993545888624)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="726cada5-e6b4-4e8a-a133-cea170905a36" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="6ea451bf-37c7-49cf-833e-4d2635b185dc" />
+        <useCaseShapeMoniker Id="1b35654c-944e-472f-866d-ceaebaf57c71" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="0e04ba3d-732d-4b98-a00a-f742f44b498d" absoluteBounds="4.625, 0.875, 1.375, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="ef7e1505-6812-4080-b946-9870a26e99cd" LastKnownName="Zatrzymanie hamania hasła" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(6.85326086956522 : 3.75); (5.45600673127091 : 1.36949294957265)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="f52c9bf4-c638-44d0-be2e-93b60f416cad" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="6ea451bf-37c7-49cf-833e-4d2635b185dc" />
+        <useCaseShapeMoniker Id="0e04ba3d-732d-4b98-a00a-f742f44b498d" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="9b5317ec-b39e-4c40-8e5f-7517df32a1fa" absoluteBounds="3, 1.25, 1.375, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="678333cf-e234-4259-95a5-c8d52b5f67df" LastKnownName="Wybór metody łamania hasła" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(6.75 : 3.81132075471698); (3.98591751854846 : 1.72522076871582)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="4c6aaa1b-0b0d-425b-9c25-0c31f7147f5c" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="6ea451bf-37c7-49cf-833e-4d2635b185dc" />
+        <useCaseShapeMoniker Id="9b5317ec-b39e-4c40-8e5f-7517df32a1fa" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="47294d03-7063-4027-a58a-8b5c49f37e0e" absoluteBounds="2.625, 2, 1.375, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="f6efe481-5fd5-4946-8b9c-41a9dccad4af" LastKnownName="Okreslenie wielkości paczki" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(6.75 : 3.88135593220339); (3.73064788304956 : 2.44844306314217)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="1c65cbb1-0ae6-41ec-a8c3-0eb9b29e8717" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="6ea451bf-37c7-49cf-833e-4d2635b185dc" />
+        <useCaseShapeMoniker Id="47294d03-7063-4027-a58a-8b5c49f37e0e" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="58de9956-38b0-4969-aa52-4a4ad5e5456f" absoluteBounds="2.625, 2.625, 1.5, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="b897128f-579c-4800-82d8-1fc144ccddd5" LastKnownName="Okreslenie indeksu początkowego" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(6.75 : 3.92241379310345); (3.92392048082351 : 3.04535463197971)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="e9fa8ddb-102b-47c7-89d0-2439bcc1ba1c" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="6ea451bf-37c7-49cf-833e-4d2635b185dc" />
+        <useCaseShapeMoniker Id="58de9956-38b0-4969-aa52-4a4ad5e5456f" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="d4f15631-0eab-4424-b8e8-f1b35a3b7840" absoluteBounds="2.625, 3.375, 1.5, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="78216a7f-2b8b-440c-b627-3755b33c602e" LastKnownName="Wczytanie HASHy&#xD;&#xA;z pliku TXT" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(6.75 : 3.97413793103448); (4.09129810260843 : 3.69909980371811)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="be79af13-35ae-443b-b883-736b1c0b73fb" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="6ea451bf-37c7-49cf-833e-4d2635b185dc" />
+        <useCaseShapeMoniker Id="d4f15631-0eab-4424-b8e8-f1b35a3b7840" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="8306d998-60d2-47a5-a156-644076863ced" absoluteBounds="2.625, 4.125, 1.5, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="10bc5082-052d-46f3-ab66-586b913ab143" LastKnownName="Czyszczenie listy HASHy" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(6.75 : 4.02586206896552); (4.09129810260843 : 4.30090019628189)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="bfaa4249-fa60-407f-a302-27b769b8a627" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="6ea451bf-37c7-49cf-833e-4d2635b185dc" />
+        <useCaseShapeMoniker Id="8306d998-60d2-47a5-a156-644076863ced" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="48971dad-605c-444b-97ca-d87a79e03a46" absoluteBounds="2.75, 4.75, 1.625, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="7e7b95e8-7a8e-4a46-bcb8-67f29d06910b" LastKnownName="Usunięcie wybranego HASHa z listy" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(6.75 : 4.07727272727273); (4.19583092842784 : 4.86674316757685)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="c84de2bf-deba-402f-9193-cf8db29ceb42" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="6ea451bf-37c7-49cf-833e-4d2635b185dc" />
+        <useCaseShapeMoniker Id="48971dad-605c-444b-97ca-d87a79e03a46" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="d1cbc459-2886-4240-a3d4-72856198bcf5" absoluteBounds="3.125, 5.625, 1.625, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="ea47c98c-e12c-43f5-a178-b2a9e170cf62" LastKnownName="Przeliczenie hasła&#xD;&#xA;na HASH MD5" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(6.75 : 4.15816326530612); (4.3595742603984 : 5.67047342709489)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="4b0257d0-75d5-4e29-9d45-65856c9b9458" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="6ea451bf-37c7-49cf-833e-4d2635b185dc" />
+        <useCaseShapeMoniker Id="d1cbc459-2886-4240-a3d4-72856198bcf5" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="5bc91a1d-1e65-45a9-b025-73ed9a6927bf" absoluteBounds="4.125, 6.375, 1.75, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="3d21cc8e-21f4-471e-88da-7b6909cdf564" LastKnownName="Umieszczenie HASHa na liste po przeliczeniu" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(6.81395348837209 : 4.25); (5.22475529614431 : 6.38548507080608)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="2e2189a5-7909-4acd-87da-8b8ec8a33827" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="6ea451bf-37c7-49cf-833e-4d2635b185dc" />
+        <useCaseShapeMoniker Id="5bc91a1d-1e65-45a9-b025-73ed9a6927bf" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="8b809879-f87d-45c1-afa5-169b81b49d4f" absoluteBounds="6, 6.375, 1.75, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="773b112e-b0b0-4865-9e66-ca973b3c5379" LastKnownName="Czyszczenie listy odpowiedzi" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(6.98837209302326 : 4.25); (6.88953287879323 : 6.37504310594565)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="ea202336-b13b-48bd-8a11-2f295e25433a" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="6ea451bf-37c7-49cf-833e-4d2635b185dc" />
+        <useCaseShapeMoniker Id="8b809879-f87d-45c1-afa5-169b81b49d4f" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="c440b0ef-2b66-44ed-9837-01cd0d65e163" absoluteBounds="8, 6.375, 1.75, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="03f5831b-74b2-444d-b0a3-f000cf216605" LastKnownName="Zapis odpowiedzi&#xD;&#xA;do pliku TXT" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(7.17441860465116 : 4.25); (8.66344509462242 : 6.38427130229214)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="8ba776f9-09aa-49ec-b800-e790ff37f52d" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="6ea451bf-37c7-49cf-833e-4d2635b185dc" />
+        <useCaseShapeMoniker Id="c440b0ef-2b66-44ed-9837-01cd0d65e163" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <SubsystemShape Id="c50fb0ce-ccc4-4354-9155-1ea57ea8952e" absoluteBounds="9.5, 0.75, 2.5, 3.375" customColor="White">
+      <subsystemMoniker Id="7453a01d-42c1-47ab-bc44-0db3f7605d76" LastKnownName="BruteForce" />
+      <nestedChildShapes>
+        <useCaseShape Id="48ea5451-93c9-41dd-bbf2-d226f106daf2" absoluteBounds="9.875, 1.25, 1.625, 0.625" customColor="238, 237, 131" heightOffset="0">
+          <useCaseMoniker Id="67efd07e-1c3c-4f71-aed9-91252d54fd4b" LastKnownName="Wybór znaków&#xD;&#xA;do łamania hasła" />
+          <relativeChildShapes />
+        </useCaseShape>
+        <useCaseShape Id="4a4a10fe-9edc-4aec-861a-74694f5d44f9" absoluteBounds="9.75, 2.125, 1.875, 0.75" customColor="238, 237, 131" heightOffset="0">
+          <useCaseMoniker Id="57395199-d06a-4494-91f2-475fa1f67bf0" LastKnownName="Przeliczenie hasła na kombinacje na podstawie wybranych znaków" />
+          <relativeChildShapes />
+        </useCaseShape>
+        <useCaseShape Id="fecb274b-e43e-4f6c-b6d9-642b11bd98ce" absoluteBounds="9.75, 3.125, 1.875, 0.75" customColor="238, 237, 131" heightOffset="0">
+          <useCaseMoniker Id="e85b515b-6c42-4d32-ae54-aafd4a84df63" LastKnownName="Przeliczenie kombinacji na hasło na podstawie wybranych znaków" />
+          <relativeChildShapes />
+        </useCaseShape>
+      </nestedChildShapes>
+    </SubsystemShape>
+    <useCaseAssociationConnector edgePoints="[(7.25 : 3.89830508474576); (10.0301812951746 : 2.76738387992897)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="140fccf0-c68e-4ee0-a10f-3ce9205b5331" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="6ea451bf-37c7-49cf-833e-4d2635b185dc" />
+        <useCaseShapeMoniker Id="4a4a10fe-9edc-4aec-861a-74694f5d44f9" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseAssociationConnector edgePoints="[(7.25 : 3.96610169491525); (9.79962573804769 : 3.62038973043421)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="07404a8b-cc1b-4cd4-882a-a44a088d6150" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="6ea451bf-37c7-49cf-833e-4d2635b185dc" />
+        <useCaseShapeMoniker Id="fecb274b-e43e-4f6c-b6d9-642b11bd98ce" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseAssociationConnector edgePoints="[(7.25 : 3.83474576271186); (10.2788801524227 : 1.83260464500875)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="5dd01d41-417b-4062-8656-0e6d595caa6c" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="6ea451bf-37c7-49cf-833e-4d2635b185dc" />
+        <useCaseShapeMoniker Id="48ea5451-93c9-41dd-bbf2-d226f106daf2" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <SubsystemShape Id="a52f63d2-ee60-4d44-9d24-0afbd44acb7e" absoluteBounds="9.75, 4.125, 1.875, 2.125" customColor="White">
+      <subsystemMoniker Id="f98b11ba-12a5-4bc8-bc2f-fad238ce2bb6" LastKnownName="Słownik" />
+      <nestedChildShapes>
+        <useCaseShape Id="a2c56d5b-b516-4c43-8a1a-4f45e98d8090" absoluteBounds="10.125, 4.625, 1.25, 0.625" customColor="238, 237, 131" heightOffset="0">
+          <useCaseMoniker Id="1a5c1075-7069-46ed-99e5-7b31981f6e67" LastKnownName="Wybór słownika z pliku" />
+          <relativeChildShapes />
+        </useCaseShape>
+        <useCaseShape Id="45d116c9-1bd2-4119-942e-c56498a6fd06" absoluteBounds="10.125, 5.5, 1.25, 0.625" customColor="238, 237, 131" heightOffset="0">
+          <useCaseMoniker Id="6a30f43b-4562-46d1-8cf8-0af64ec6f3e2" LastKnownName="Wybór metod modyfikujących" />
+          <relativeChildShapes />
+        </useCaseShape>
+      </nestedChildShapes>
+    </SubsystemShape>
+    <useCaseAssociationConnector edgePoints="[(7.25 : 4.0625); (10.1909830056251 : 4.79774575140626)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="a22aa645-03f6-49cd-88e6-5f9a493d733c" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="6ea451bf-37c7-49cf-833e-4d2635b185dc" />
+        <useCaseShapeMoniker Id="a2c56d5b-b516-4c43-8a1a-4f45e98d8090" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseAssociationConnector edgePoints="[(7.25 : 4.12083333333333); (10.3006322649693 : 5.59530559473516)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="c684d700-c07e-46b0-873a-6c863361d92d" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="6ea451bf-37c7-49cf-833e-4d2635b185dc" />
+        <useCaseShapeMoniker Id="45d116c9-1bd2-4119-942e-c56498a6fd06" />
+      </nodes>
+    </useCaseAssociationConnector>
+  </nestedChildShapes>
+</useCaseDiagram>
